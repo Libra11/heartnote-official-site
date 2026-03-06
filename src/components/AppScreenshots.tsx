@@ -1,13 +1,20 @@
+/**
+ * Author: Libra
+ * Date: 2026-02-20 23:53:56
+ * LastEditTime: 2026-03-06 16:18:52
+ * LastEditors: Libra
+ * Description: 
+*/
 import { useRef } from 'react';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
 
 const screenshots = [
-  { id: 1, title: '首页仪表盘 (Dashboard)', src: '/screenshots/dashboard.jpg' },
-  { id: 2, title: 'Block 流式编辑器 (Editor)', src: '/screenshots/editor.jpg' },
-  { id: 3, title: '多维时间轴 (Timeline)', src: '/screenshots/timeline.jpg' },
-  { id: 4, title: '图表与统计 (Review/Stats)', src: '/screenshots/stats.jpg' },
-  { id: 5, title: '那年今日 (On This Day)', src: '/screenshots/on_this_day.jpg' },
-  { id: 6, title: '设置与个性化主页 (Settings)', src: '/screenshots/settings.jpg' },
+  { id: 1, title: '首页仪表盘 (Dashboard)', src: '/screenshots/dashboard.png' },
+  { id: 2, title: 'Block 流式编辑器 (Editor)', src: '/screenshots/editor.png' },
+  { id: 3, title: '多维时间轴 (Timeline)', src: '/screenshots/timeline.png' },
+  { id: 4, title: '图表与统计 (Review/Stats)', src: '/screenshots/stats.png' },
+  { id: 5, title: '日历 (calendar)', src: '/screenshots/calendar.png' },
+  { id: 6, title: '设置与个性化主页 (Settings)', src: '/screenshots/settings.png' },
 ];
 
 export default function AppScreenshots() {

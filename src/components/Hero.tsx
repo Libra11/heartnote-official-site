@@ -1,5 +1,13 @@
-import { Download, Sparkles, Image, Lock, ArrowUpRight } from 'lucide-react';
+/**
+ * Author: Libra
+ * Date: 2026-02-20 23:25:46
+ * LastEditTime: 2026-03-06 16:23:17
+ * LastEditors: Libra
+ * Description: 
+*/
+import { Download, Sparkles, Image, Lock } from 'lucide-react';
 import MockupDevice from './MockupDevice';
+import { downloadDefault } from '../utils/download';
 
 export default function Hero() {
   return (
@@ -36,13 +44,9 @@ export default function Hero() {
           </p>
           
           <div className="hero-actions">
-            <button className="btn btn-primary">
+            <button className="btn btn-primary" onClick={downloadDefault}>
               <Download size={18} strokeWidth={2.5} />
               立即下载体验
-            </button>
-            <button className="btn btn-secondary">
-              查阅安全白皮书
-              <ArrowUpRight size={18} />
             </button>
           </div>
           

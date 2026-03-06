@@ -1,4 +1,4 @@
-import { PenTool, Library, LayoutGrid, CalendarDays } from 'lucide-react';
+import { PenTool, Library, LayoutGrid, CalendarDays, NotebookPen } from 'lucide-react';
 
 export default function Features() {
   return (
@@ -39,8 +39,25 @@ export default function Features() {
            </div>
         </div>
         
+        {/* Five Year Journal Feature */}
+        <div className="org-card five-year-card reveal delay-100">
+           <div className="bento-icon-box">
+             <NotebookPen size={32} strokeWidth={1.5} />
+           </div>
+           <h3>五年日记</h3>
+           <p>同一天，不同年份。在一条时间线上纵览五年间的成长轨迹，见证自己的变化。</p>
+           <div className="five-year-visual">
+              <div className="year-line"></div>
+              <div className="year-dot"></div>
+              <div className="year-dot"></div>
+              <div className="year-dot"></div>
+              <div className="year-dot"></div>
+              <div className="year-dot active"></div>
+           </div>
+        </div>
+        
         {/* Leaf Shape Feature */}
-        <div className="org-card leaf-shape reveal delay-100">
+        <div className="org-card leaf-shape reveal delay-200">
            <div className="bento-icon-box">
              <LayoutGrid size={32} strokeWidth={1.5} />
            </div>

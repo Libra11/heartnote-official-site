@@ -13,7 +13,7 @@ export default function Footer() {
                记下的不只是文字，而是时间刻下的回声。
              </p>
              <div className="footer-badges" style={{ marginTop: '32px', display: 'flex', gap: '8px' }}>
-                <div style={{ padding: '8px 16px', borderRadius: '100px', background: 'var(--text-main)', color: '#fff', fontSize: '13px', fontWeight: 600 }}>当前版本 1.0.0+4</div>
+                <div style={{ padding: '8px 16px', borderRadius: '100px', background: 'var(--text-main)', color: '#fff', fontSize: '13px', fontWeight: 600 }}>当前版本 1.0.1+2</div>
              </div>
           </div>
           <div className="footer-col">
@@ -39,7 +39,7 @@ export default function Footer() {
           <div className="footer-col">
             <h4>关于心记</h4>
             <ul>
-              <li><a href="#">关于我们 (V1.0.0+4)</a></li>
+              <li><a href="#">关于我们 (V1.0.1+2)</a></li>
               <li><a href="#">用户协议 (EULA)</a></li>
               <li><a href="#">隐私政策 (Privacy Policy)</a></li>
               <li><a href="https://github.com/libra">联系开发者</a></li>

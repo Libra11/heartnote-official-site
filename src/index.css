@@ -496,6 +496,120 @@ section {
 }
 .pill-horizontal .bento-icon-box {background: linear-gradient(135deg, var(--bg-app), #f4f0e6); border: 1px solid var(--border-glass); box-shadow: inset 0 2px 4px rgba(255,255,255,0.8), 0 8px 16px rgba(0,0,0,0.04); display: flex; align-items:center; justify-content:center; }
 
+.five-year-card {
+  grid-column: span 4;
+  grid-row: span 1;
+  border-radius: 24px 80px 24px 80px;
+  position: relative;
+  overflow: hidden;
+}
+.five-year-card .bento-icon-box {
+  font-size: 32px;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, var(--bg-app), #f4f0e6);
+  border: 1px solid var(--border-glass);
+  box-shadow: inset 0 2px 4px rgba(255,255,255,0.8), 0 8px 16px rgba(0,0,0,0.04);
+  margin-bottom: 24px;
+}
+.five-year-card h3 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+.five-year-visual {
+  position: absolute;
+  bottom: 32px;
+  left: 48px;
+  right: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.year-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  background: var(--border-light);
+}
+.year-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--border-light);
+  position: relative;
+  z-index: 1;
+}
+.year-dot.active {
+  width: 16px;
+  height: 16px;
+  background: var(--accent);
+  box-shadow: 0 0 12px rgba(184, 151, 104, 0.5);
+}
+
+.five-year-card {
+  grid-column: span 4;
+  grid-row: span 1;
+  border-radius: 24px 80px 24px 80px;
+  position: relative;
+  overflow: hidden;
+}
+.five-year-card .bento-icon-box {
+  font-size: 32px;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, var(--bg-app), #f4f0e6);
+  border: 1px solid var(--border-glass);
+  box-shadow: inset 0 2px 4px rgba(255,255,255,0.8), 0 8px 16px rgba(0,0,0,0.04);
+  margin-bottom: 24px;
+}
+.five-year-card h3 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+.five-year-visual {
+  position: absolute;
+  bottom: 32px;
+  left: 48px;
+  right: 48px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.year-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 2px;
+  background: var(--border-light);
+}
+.year-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--border-light);
+  position: relative;
+  z-index: 1;
+}
+.year-dot.active {
+  width: 16px;
+  height: 16px;
+  background: var(--accent);
+  box-shadow: 0 0 12px rgba(184, 151, 104, 0.5);
+}
+
 /* Mockup Device (Offline representation) */
 .mockup-container {
   width: 100%;
@@ -1052,6 +1166,46 @@ section {
   letter-spacing: -0.5px;
 }
 
+.dl-alternatives {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.dl-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  background: var(--bg-panel-solid);
+  color: var(--text-main);
+  border: 1px solid var(--border-light);
+  padding: 12px 20px;
+  border-radius: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  gap: 8px;
+  transition: all var(--transition-fast);
+}
+
+.dl-btn-secondary:hover {
+  background: var(--bg-panel);
+  border-color: var(--accent);
+}
+
+.dl-badge {
+  background: var(--accent);
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 100px;
+  margin-left: 8px;
+}
+
+.dl-btn-primary {
+  position: relative;
+}
+
 @media (max-width: 900px) {
   .feature-row, .feature-row.reverse {
     flex-direction: column;
@@ -1072,6 +1226,13 @@ section {
     align-items: stretch;
   }
   .dl-btn {
+    justify-content: center;
+  }
+  .dl-alternatives {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .dl-btn-secondary {
     justify-content: center;
   }
 }
