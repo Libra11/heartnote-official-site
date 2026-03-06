@@ -2,7 +2,7 @@ import { Save, LibraryBig, Languages, Bell, History, ArrowRightLeft, BookOpenTex
 
 export default function MicroFeatures() {
   return (
-    <section className="container" style={{ padding: '160px 0' }}>
+    <section className="container" style={{ paddingBlock: '160px' }}>
       <div className="section-header reveal" style={{ textAlign: 'center', marginBottom: '120px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <h2 style={{ fontSize: '64px' }}>微小，<br/>却<em>重若千钧。</em></h2>
         <p style={{ maxWidth: '500px' }}>伟大往往深藏在不可见的底层骨骼中。为了绝对流畅的书写直觉，我们不计成本地打磨了这些边缘细节。</p>

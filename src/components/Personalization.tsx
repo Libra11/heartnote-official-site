@@ -2,7 +2,7 @@ import { Settings, Palette, Type, ScanFace, DatabaseBackup } from 'lucide-react'
 
 export default function Personalization() {
   return (
-    <section className="container" style={{ padding: '80px 0' }}>
+    <section className="container" style={{ paddingBlock: '80px' }}>
       <div className="section-header reveal">
         <h2><em>重塑</em>灵魂底色。</h2>
         <p>你的日记本，应当符合你此刻的心境。不仅有强大的数据后盾，我们也开放了从排版系统到全局主题的绝大部分自定义接口，将掌控权全权交予你。</p>

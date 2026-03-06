@@ -24,7 +24,7 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="container" style={{ padding: '120px 0' }}>
+    <section id="faq" className="container" style={{ paddingBlock: '120px' }}>
        <div className="section-header reveal" style={{ maxWidth: '100%', textAlign: 'center' }}>
         <h2>解答您的顾虑</h2>
         <p>透明沟通，让记录毫无负担。</p>

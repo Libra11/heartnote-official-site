@@ -29,7 +29,7 @@ export default function AppScreenshots() {
   };
 
   return (
-    <section id="screenshots" className="container" style={{ padding: '80px 0 160px', overflow: 'hidden' }}>
+    <section id="screenshots" className="container" style={{ paddingBlock: '80px 160px', overflow: 'hidden' }}>
       <div className="section-header reveal screenshots-header">
         <div className="screenshots-text">
           <h2><em>心记</em> 界面掠影</h2>

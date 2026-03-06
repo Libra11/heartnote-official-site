@@ -3,7 +3,7 @@ import { downloadApk, downloadDefault } from '../utils/download';
 
 export default function DownloadSection() {
   return (
-    <section id="download" className="container" style={{ padding: '40px 0 160px' }}>
+    <section id="download" className="container" style={{ paddingBlock: '40px 160px' }}>
       <div className="download-cta reveal">
         <h2>即刻开启你的数字记忆<br/><em>归档计划。</em></h2>
         <p>目前全功能 1.0 版本已全面就绪。完全免费，无令人厌烦的广告拦截，支持 Android 端部署。</p>

@@ -1,12 +1,10 @@
-import { Heart } from 'lucide-react';
-
 export default function Header({ scrolled }: { scrolled: boolean }) {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
         <a href="/" className="logo-group">
           <div className="logo-icon">
-            <Heart size={20} fill="var(--text-main)" color="var(--text-main)" strokeWidth={1.5} />
+            <img src="/app_icon.png" alt="HeartNote 应用图标" />
           </div>
           <span>HeartNote</span>
         </a>
@@ -16,12 +14,6 @@ export default function Header({ scrolled }: { scrolled: boolean }) {
           <a href="#security">隔离策略</a>
           <a href="#download">体验</a>
         </nav>
-        
-        <div className="header-actions">
-          <button className="btn btn-primary" style={{ padding: '12px 28px', fontSize: '14px' }}>
-            获取应用
-          </button>
-        </div>
       </div>
     </header>
   );

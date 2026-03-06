@@ -2,7 +2,7 @@ import { BarChart3, LineChart, PieChart } from 'lucide-react';
 
 export default function ReviewShowcase() {
   return (
-    <section className="container" style={{ padding: '80px 0 160px' }}>
+    <section className="container" style={{ paddingBlock: '80px 160px' }}>
       <div className="review-dashboard reveal">
         <div className="dash-content">
           <h2 style={{ fontSize: '48px', marginBottom: '24px' }}>量化你的<br/><em>情绪与时间。</em></h2>

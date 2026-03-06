@@ -2,7 +2,7 @@ import { Image, Mic, PenTool, Hash, LayoutTemplate, MapPin, CalendarHeart } from
 
 export default function DetailedFeatures() {
   return (
-    <section className="container" style={{ padding: '160px 0' }}>
+    <section className="container" style={{ paddingBlock: '160px' }}>
       
       <div className="overlap-feature-row reveal">
          <div className="overlap-text front-layer">
